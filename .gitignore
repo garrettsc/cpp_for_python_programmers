@@ -1,7 +1,8 @@
 *
 !.gitignore
-
-!*/
-!*.cpp
-!*.py
 !*.md
+
+!topics/
+/topics/*
+!/topics/*.cpp
+!/topics/*.py
