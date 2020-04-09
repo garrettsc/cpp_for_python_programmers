@@ -1,8 +1,7 @@
 *
+!.gitattributes
 !.gitignore
-!*.md
-
-!topics/
-/topics/*
-!/topics/*.cpp
-!/topics/*.py
+!readme.md
+!.gitkeep
+!*.py
+!*/
