@@ -4,11 +4,18 @@ Questions I asked myself while learning C++. The goal here is to ask meaningful 
 
 ## How do I...?
 
-### How do I separate my classes into separate files?
+### How do I separate my classes or functions into separate files?
 
-Separating code in C++ is a little more involved than Python. You are probably use to writing a .py file, using the 'import' statement, and now your class, function, or any other object is now available for you to use. Separating your code amongst other files is a little more complicated.  
+To separate classes or functions into separate files requires a **header**  (.h) file and a **library** (.cpp) file. Header file declares the _interface_ and the library defines the _implementation_. This essentially means that the header file tells the caller what classes, class methods, and functions are defined in the library and how to access them. The library file contains the working code.
 
-(Possible correct approach)[https://stackoverflow.com/questions/19549793/c-classes-in-separate-file]
+[See this directory for an example.](examples/classes)
+Why separate header (declaration) and library (implementation)?
+
+
+[Possible correct approach](https://stackoverflow.com/questions/19549793/c-classes-in-separate-file)
+https://stackoverflow.com/questions/1305947/why-does-c-need-a-separate-header-file
+
+[Here is a dicussion on the differences between a header file and a library.](https://stackoverflow.com/questions/924485/whats-the-difference-between-a-header-file-and-a-library)
 
  ### How do I interpret error messages?
 Compile
