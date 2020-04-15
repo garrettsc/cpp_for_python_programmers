@@ -6,4 +6,6 @@
 !.gitkeep
 !*.py
 !*.cpp
+!*.cpp
+!*.sh
 !*/
