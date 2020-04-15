@@ -11,7 +11,7 @@ To separate classes or functions into separate files requires a **header**  (.h)
 In this [example](examples/classes) a single class (SomeClass) is declared in the **header**, defined in the **library**, and called upon by the main file. 
 
 Related questions:
-[[How do I put] C++ classes in separate file?](https://stackoverflow.com/questions/19549793/c-classes-in-separate-file)
+[\[How do I put\] C++ classes in separate file?](https://stackoverflow.com/questions/19549793/c-classes-in-separate-file)
 [Why does C++ need a separate header file?](https://stackoverflow.com/questions/1305947/why-does-c-need-a-separate-header-files)
 [Whats the difference between a header file and a library?](https://stackoverflow.com/questions/924485/whats-the-difference-between-a-header-file-and-a-library)
 
